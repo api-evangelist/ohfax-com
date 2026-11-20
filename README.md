@@ -1,4 +1,4 @@
-# ohfax-com
+# Oh Fax
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ohfax-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ohfax.com/
+Oh Fax provides a simple web service to send PDFs as faxes to US and Canada numbers directly from a browser or API. Users can send a fax without an account, paying $2 per fax up to 100 pages. The platform offers a developer API with API keys, webhooks, and machine payments protocol for integration, plus pricing details for developers. It emphasizes ease of use, no subscription, and supports tracking fax status via a lookup page.
+
+**Areas:** Fax · API · Payments · Cloud · Communication
+
+## Oh Fax on APIs.io
+
+Everything profiled for Oh Fax is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ohfax-com/](https://apis.io/providers/ohfax-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Oh Fax Auth API](https://apis.io/apis/ohfax-com/ohfax-com-auth-api/) — The Auth API from Oh Fax — 3 operation(s) for auth.
+- [Oh Fax Balance API](https://apis.io/apis/ohfax-com/ohfax-com-balance-api/) — The Balance API from Oh Fax — 1 operation(s) for balance.
+- [Oh Fax Checkout API](https://apis.io/apis/ohfax-com/ohfax-com-checkout-api/) — The Checkout API from Oh Fax — 2 operation(s) for checkout.
+- [Oh Fax Dev API](https://apis.io/apis/ohfax-com/ohfax-com-dev-api/) — The Dev API from Oh Fax — 3 operation(s) for dev.
+- [Oh Fax Faxes API](https://apis.io/apis/ohfax-com/ohfax-com-faxes-api/) — The Faxes API from Oh Fax — 4 operation(s) for faxes.
+- [Oh Fax Health API](https://apis.io/apis/ohfax-com/ohfax-com-health-api/) — The Health API from Oh Fax — 1 operation(s) for health.
+- [Oh Fax Pay API](https://apis.io/apis/ohfax-com/ohfax-com-pay-api/) — The Pay API from Oh Fax — 1 operation(s) for pay.
+- [Oh Fax Quotes API](https://apis.io/apis/ohfax-com/ohfax-com-quotes-api/) — The Quotes API from Oh Fax — 1 operation(s) for quotes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Ohfax Com Webhooks](https://apis.io/asyncapis/ohfax-com/ohfax-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Oh Fax Agentic Access](https://apis.io/agentic-access/ohfax-com/ohfax-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Oh Fax API Rules](https://apis.io/rules/ohfax-com/ohfax-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Oh Fax Authentication](https://apis.io/security/ohfax-com/ohfax-com-authentication/)
+- [Oh Fax Domain Security](https://apis.io/security/ohfax-com/ohfax-com-domain-security/)
+- [Oh Fax Vulnerability Disclosure](https://apis.io/security/ohfax-com/ohfax-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Oh Fax Plans Pricing](https://apis.io/plans/ohfax-com/ohfax-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ohfax.com/)
+- [Documentation](https://ohfax.com/docs/)
+- [Getting started](https://ohfax.com/docs/quickstart)
+- [API reference](https://app.ohfax.com/openapi.json)
+- [Pricing](https://ohfax.com/pricing)
+- [Changelog](https://ohfax.com/changelog)
+- [Security](https://ohfax.com/terms)
+- [Terms of service](https://ohfax.com/terms)
+- [Privacy policy](https://ohfax.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.3** — developing · rubric 0.27.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 47.8 |
+| Contract governance | 65.5 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 50.5 |
+
+**Agent readiness 38.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ohfax-com/](https://apis.io/providers/ohfax-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Oh Fax: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ohfax-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
